@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VStack</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_user">AddUser</string>
+    <string name="title_activity_delete_user">DeleteUser</string>
+    <string name="title_activity_list_users">ListUsers</string>
+    <string name="title_activity_add_project">AddProject</string>
+    <string name="title_activity_deleteproject">Deleteproject</string>
+    <string name="title_activity_list_projects">ListProjectsActivity</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="title_activity_update_user">UpdateUser</string>
+    <string name="title_activity_update_projects">UpdateProjects</string>
+    <string name="title_activity_second_page">SecondPage</string>
+    <string name="title_activity_add_vol">AddVol</string>
+    <string name="title_activity_add_volume">AddVolume</string>
+    <string name="title_activity_add_projects">AddProjects</string>
+    <string name="title_activity_delete_project">DeleteProject</string>
+    <string name="title_activity_list_project">ListProject</string>
+    <string name="title_activity_list_before_update_projects">ListBeforeUpdateProjects</string>
+    <string name="title_activity_update_project">UpdateProject</string>
+    <string name="title_activity_delete_vol">DeleteVol</string>
+    <string name="title_activity_list_vol">ListVol</string>
+    <string name="title_activity_list_before_update_vol">ListBeforeUpdateVol</string>
+    <string name="title_activity_update_vol">Update_vols</string>
+    <string name="title_activity_add_image">AddImage</string>
+    <string name="title_activity_add_images">AddImages</string>
+    <string name="title_activity_delete_image">DeleteImage</string>
+    <string name="title_activity_list_images">ListImages</string>
+    <string name="title_activity_add_networks">AddNetworks</string>
+    <string name="title_activity_add_network">AddNetwork</string>
+    <string name="title_activity_delete_network">DeleteNetwork</string>
+    <string name="title_activity_list_networks">ListNetworks</string>
+    <string name="title_activity_list_before_update_networks">ListBeforeUpdateNetworks</string>
+    <string name="title_activity_update_network">UpdateNetwork</string>
+    <string name="title_activity_update_networks">UpdateNetworks</string>
+    <string name="title_activity_create_server">CreateServer</string>
+    <string name="title_activity_delete_server">DeleteServer</string>
+    <string name="title_activity_add_instance">AddInstance</string>
+    <string name="title_activity_list_servers">ListServers</string>
+    <string name="title_activity_list_flavors">ListFlavors</string>
+    <string name="title_activity_list_images_server">ListImages_server</string>
+
+</resources>

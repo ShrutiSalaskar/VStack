@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projects.UpdateProject"
+    tools:ignore="MergeRootFrame" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name"
+            android:layout_centerVertical="true"
+            android:ems="10" 
+            android:hint="DESCRIPTION"/>
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/name"
+            android:layout_alignLeft="@+id/name"
+            android:layout_marginBottom="48dp" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Update" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:hint="NAME" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+    
+    </FrameLayout>

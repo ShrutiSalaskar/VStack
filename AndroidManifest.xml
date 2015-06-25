@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vstack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.vstack.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.vstack.Navigation"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name="users.AddUser"
+            android:label="@string/title_activity_add_user" >
+        </activity>
+        <activity
+            android:name="users.ListUsers"
+            android:label="@string/title_activity_list_users" >
+        </activity>
+        <activity
+            android:name="users.ListBeforeUpdateUsers"
+            android:label="@string/title_activity_list_users" >
+        </activity>
+        <activity
+            android:name="users.DeleteUser"
+            android:label="@string/title_activity_delete_user" >
+        </activity>
+        <activity
+            android:name="users.UpdateUser"
+            android:label="@string/title_activity_update_user" >
+        </activity>
+        <activity
+            android:name="volume.AddVol"
+            android:label="@string/title_activity_add_vol" >
+        </activity>
+        <activity
+            android:name="com.example.volume.AddVol"
+            android:label="@string/title_activity_add_vol" >
+        </activity>
+        <activity
+            android:name="volume.DeleteVol"
+            android:label="@string/title_activity_delete_vol" >
+        </activity>
+        <activity
+            android:name="volume.ListVol"
+            android:label="@string/title_activity_list_vol" >
+        </activity>
+        <activity
+            android:name="volume.ListBeforeUpdateVol"
+            android:label="@string/title_activity_list_before_update_vol" >
+        </activity>
+        <activity
+            android:name="volume.Update_vols"
+            android:label="@string/title_activity_update_vol" >
+        </activity>
+        <activity
+            android:name="projects.AddProject"
+            android:label="@string/title_activity_add_project" >
+        </activity>
+        <activity
+            android:name="projects.DeleteProject"
+            android:label="@string/title_activity_delete_project" >
+        </activity>
+        <activity
+            android:name="projects.ListProject"
+            android:label="@string/title_activity_list_project" >
+        </activity>
+        <activity
+            android:name="projects.ListBeforeUpdateProjects"
+            android:label="@string/title_activity_list_before_update_projects" >
+        </activity>
+        <activity
+            android:name="projects.UpdateProject"
+            android:label="@string/title_activity_update_project" >
+        </activity>
+        <activity
+            android:name="image.AddImage"
+            android:label="@string/title_activity_add_image" >
+        </activity>
+        <activity
+            android:name="openstack_connection.AddImages"
+            android:label="@string/title_activity_add_images" >
+        </activity>
+        <activity
+            android:name="image.DeleteImage"
+            android:label="@string/title_activity_delete_image" >
+        </activity>
+        <activity
+            android:name="image.ListImages"
+            android:label="@string/title_activity_list_images" >
+        </activity>
+        <activity
+            android:name="network.AddNetworks"
+            android:label="@string/title_activity_add_networks" >
+        </activity>
+        <activity
+            android:name="openstack_connection.AddNetwork"
+            android:label="@string/title_activity_add_network" >
+        </activity>
+        <activity
+            android:name="network.DeleteNetwork"
+            android:label="@string/title_activity_delete_network" >
+        </activity>
+        <activity
+            android:name="network.ListNetworks"
+            android:label="@string/title_activity_list_networks" >
+        </activity>
+        <activity
+            android:name="network.ListBeforeUpdateNetworks"
+            android:label="@string/title_activity_list_before_update_networks" >
+        </activity>
+        <activity
+            android:name="network.UpdateNetwork"
+            android:label="@string/title_activity_update_network" >
+        </activity>
+        <activity
+            android:name="openstack_connection.UpdateNetworks"
+            android:label="@string/title_activity_update_networks" >
+        </activity>
+        <activity
+            android:name="compute.CreateServer"
+            android:label="@string/title_activity_create_server" >
+        </activity>
+        <activity
+            android:name="compute.DeleteServer"
+            android:label="@string/title_activity_delete_server" >
+        </activity>
+        <activity
+            android:name="openstack_connection.AddInstance"
+            android:label="@string/title_activity_add_instance" >
+        </activity>
+        <activity
+            android:name="compute.ListServers"
+            android:label="@string/title_activity_list_servers" >
+        </activity>
+        <activity
+            android:name="compute.ListFlavors"
+            android:label="@string/title_activity_list_flavors" >
+        </activity>
+        <activity
+            android:name="compute.ListImages_server"
+            android:label="@string/title_activity_list_images_server" >
+        </activity>
+    </application>
+
+</manifest>
